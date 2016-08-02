@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.labulaka.discgame.MainActivity">
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:background="#912020"
+        android:gravity="end">
+
+    <com.labulaka.discgame.widget.DiscViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
